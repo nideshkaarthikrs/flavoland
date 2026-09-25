@@ -1,0 +1,23 @@
+# Claude Code / AI-assistant project files — not part of the shipped product
+CLAUDE.md
+.claude/
+.claude/**
+.mcp.json
+
+# Node / Next.js (this repo will become a Next.js app per IMPLEMENTATION_PLAN.md)
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# OS / editor
+.DS_Store
+*.log
+.vscode/
+.idea/
