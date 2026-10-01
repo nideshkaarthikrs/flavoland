@@ -1,0 +1,1 @@
+import {Suspense} from "react";import StoreFinder from "@/components/store-finder";export default function StoresPage(){return <Suspense fallback={<div className="min-h-screen grid place-items-center">Loading store finder…</div>}><StoreFinder/></Suspense>}
